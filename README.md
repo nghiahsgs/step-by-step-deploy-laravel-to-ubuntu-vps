@@ -133,7 +133,7 @@ mở file host
 ```
 vi /etc/hosts
 ```
-``
+```
 ip_vps nghiadeptrai.com
 ```
 Vaof trình duyệt vào gõ nghiadeptrai.com và tận hưởng
