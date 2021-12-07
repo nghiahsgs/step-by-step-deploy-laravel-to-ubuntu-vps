@@ -74,6 +74,14 @@ sudo chown -R www-data.www-data ~/example-app/storage
 sudo chown -R www-data.www-data ~/example-app/bootstrap/cache
 ```
 
++ Bên centos: Mở quyền cho các thư mục (apache là viết cho apache2)
+```
+sudo chown -R apache:apache meeyads.com
+```
+
+
+
+
 + Serve serve laravel  (giả sử vps của ip là 45.32.106.247)
 ```
 php artisan serve --host 45.32.106.247 --port 3000
